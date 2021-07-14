@@ -1,0 +1,61 @@
+conversations:
+- conversationId: 1
+  messages:
+  - by: jeremi1995
+    content: Hello, my name is Jeremy
+  - by: admin
+    content: Hello Jeremy! Welcome to ichat
+  - by: jeremi1995
+    content: hello+admin%21+How+are+you%3F
+  - by: jeremi1995
+    content: is+the+encoding+working%3F
+  - by: admin
+    content: message from admin to jeremi1995...
+  - by: admin
+    content: This is the newest message from admin to jeremi1995. Hopefully we see
+      this in the conversations page
+  participants:
+  - jeremi1995
+  - admin
+- conversationId: 2
+  messages:
+  - by: jeremi1995
+    content: Hello test! thanks for being a test account!
+  - by: testing
+    content: Hello Jeremy! Thanks for the compliment!
+  - by: jeremi1995
+    content: test+message...
+  - by: testing
+    content: From+testing+to+jeremi1995.+Does+this+work%3F
+  - by: jeremi1995
+    content: test+Message.+Hopefully+the+decoder+works...
+  - by: jeremi1995
+    content: has+the+space+gone+away+yet?
+  - by: jeremi1995
+    content: now the space must go away right?
+  - by: jeremi1995
+    content: 'how about I send a message with the   sign and these characters: < >
+      , . @ !'
+  - by: jeremi1995
+    content: 'now I''m sending these characters: +, -, @, >, <, :, '', "'
+  - by: jeremi1995
+    content: test message with AJAX
+  - by: jeremi1995
+    content: test message 2 with AJAX
+  - by: jeremi1995
+    content: message 3 with AJAX
+  - by: jeremi1995
+    content: will you catch it?
+  - by: jeremi1995
+    content: receiver exists?
+  participants:
+  - jeremi1995
+  - testing
+- conversationId: 3
+  messages:
+  - by: admin
+    content: message from admin to testing... ??! :)
+  participants:
+  - admin
+  - testing
+nextId: 4

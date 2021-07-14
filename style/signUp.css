@@ -1,0 +1,11 @@
+body {
+    padding: 10px 10px 10px 10px;
+}
+#signUpDiv {
+    display: flex;
+}
+
+#signUpForm {
+    justify-content: center;
+    flex-direction: column;
+}
