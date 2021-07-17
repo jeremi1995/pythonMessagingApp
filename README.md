@@ -28,6 +28,8 @@ Suggestion for testing the project:
     Changing this dropdown will switch the current conversation to the conversation with the selected account.
 
 5. Confirm that the message sent by the first account shows up in the conversations of the second account.
+    As a side note, in a conversation, the message sent by your account shows up in BLUE.
+    The message sent by the other account to you shows up in GREY.
 
 
 Thank you! Good luck!<br>

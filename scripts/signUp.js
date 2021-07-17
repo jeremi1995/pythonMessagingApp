@@ -23,7 +23,7 @@ function handleServerResponse(responseCode) {
         displayMessage("Sign-up successful! You can now send messages by navigating to the Send Message tab", "success")
     }
     else if (responseCode == 1) {
-        displayMessage("Username has already been used! Please try a differen username!", "danger")
+        displayMessage("Username has already been used! Please try a different username!", "danger")
     }
     else {
         displayMessage("Something bad happened!", "danger")

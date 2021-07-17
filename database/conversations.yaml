@@ -87,4 +87,14 @@ conversations:
   participants:
   - jeremi1995
   - jeremi95
-nextId: 7
+- conversationId: 7
+  messages:
+  - by: testAccount1234
+    content: newest test account sending a message to testing. Please confirm you
+      have received it.
+  - by: testing
+    content: I have received the message! Thank you!
+  participants:
+  - testAccount1234
+  - testing
+nextId: 8

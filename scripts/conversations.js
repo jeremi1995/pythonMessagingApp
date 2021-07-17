@@ -55,12 +55,6 @@ function getCorrespondents() {
     auth.username = username
     auth.password = password
 
-    // disable input:
-
-    document.getElementById("username").disabled = true
-    document.getElementById("password").disabled = true
-    document.getElementById("getCorrespondents").disabled = true
-
     //Send request:
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -70,6 +64,14 @@ function getCorrespondents() {
                 displayMessage("Username of password is incorrect!", "danger")
             }
             else {
+                
+                // disable input:
+                document.getElementById("username").disabled = true
+                document.getElementById("password").disabled = true
+                document.getElementById("getCorrespondents").disabled = true
+                
+                // Create options in the dropdown and get conversation
+                //  for the first thing that shows up in the dropdown
                 displayMessage("", "clear")
                 createOptions(jsonResponse.correspondents)
                 getConversation()
