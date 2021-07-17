@@ -1,0 +1,25 @@
+Final lab report
+
+
+-	What did you learn by doing your final project?
+    In this project, I expanded my knowledge of HTTP requests and response that we studied in lab2. 
+    By doing this project, I got to learn about the format of an HTTP request with parameters because 
+    the messaging app has to send request to the server with parameters (not just requesting a resource like an html page).
+    This is something that were not covered by lab2 and I'm glad that I learned about this. 
+    As a result, I also learned that parameters in HTTP requests are URL encoded and needs to be decoded 
+    on the server side (which is what I actually had to do in the TCPserver.py file).
+
+
+-	How much time do you estimate that you spent on the final project?
+
+    I spent about 18 hours to complete the project.
+
+
+-	If applicable to your project, did your submitted project have instructions for compiling and running it in a README file or the file header?
+
+    Yes. I also put in the README file some suggestion on how to test the project.
+
+
+-	What grade (0 to 100%) do you feel that you earned on the final project?  Why?
+
+    I think I deserve a 100% because of the amount of time and effort I spent on the project, because it works, and because I actually learned some things from it.
