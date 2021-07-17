@@ -1,3 +1,7 @@
+.message {
+    word-wrap: normal;
+}
+
 .by {
     font-size: 10px;
     font-style: italic;

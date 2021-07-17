@@ -48,6 +48,10 @@ conversations:
     content: will you catch it?
   - by: jeremi1995
     content: receiver exists?
+  - by: jeremi1995
+    content: Hello Testing! Thank you for being a good test account!
+  - by: testing
+    content: test Message from testing to jeremi1995
   participants:
   - jeremi1995
   - testing
@@ -55,7 +59,32 @@ conversations:
   messages:
   - by: admin
     content: message from admin to testing... ??! :)
+  - by: admin
+    content: This is a test message being sent from admin to testing
   participants:
   - admin
   - testing
-nextId: 4
+- conversationId: 4
+  messages:
+  - by: honey1234
+    content: test message from honey1234 to admin
+  - by: honey1234
+    content: test message from honey1234 to admin. Second message from honey1234
+  participants:
+  - honey1234
+  - admin
+- conversationId: 5
+  messages:
+  - by: honey1234
+    content: test message from honey1234 to jeremi1995
+  participants:
+  - honey1234
+  - jeremi1995
+- conversationId: 6
+  messages:
+  - by: jeremi1995
+    content: hey! how's your new account?
+  participants:
+  - jeremi1995
+  - jeremi95
+nextId: 7

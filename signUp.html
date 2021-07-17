@@ -35,21 +35,24 @@
         Sign Up
     </h2>
     <div id="signUpDiv">
-        <form id="signUpForm" action="signUp" method="POST">
+        <form id="signUpForm" onsubmit="return false">
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
-                <input type="text" id="username" class="form-control" name="username">
+                <input type="text" id="username" class="form-control">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" id="password" class="form-control" name="password">
+                <input type="password" id="password" class="form-control">
             </div>
             <div class="mb-3">
                 <label for="confirm_password" class="form-label">Confirm your password:</label>
                 <input type="password" id="confirm_password" class="form-control">
             </div>
-            <button>Sign-up</button>
+            <button id="signUpButton">Sign-up</button>
         </form>
     </div>
+    <div id="serverResponse">
+    </div>
+    <script src="scripts/signUp.js"></script>
 </body>
 </html>

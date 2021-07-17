@@ -37,10 +37,10 @@ function displayConversation(messages) {
         htmlStr = "<span class='by'>" + message.by + "</span><br>" + "<span class='content'>" + message.content + "</span>"
         messageElement.innerHTML = htmlStr
         if (message.by == auth.username) {
-            messageElement.className = "alert alert-primary"
+            messageElement.className = "message alert alert-primary"
         }
         else {
-            messageElement.className = "alert alert-secondary"
+            messageElement.className = "message alert alert-secondary"
         }
 
         conversationDiv.appendChild(messageElement)
@@ -72,6 +72,7 @@ function getCorrespondents() {
             else {
                 displayMessage("", "clear")
                 createOptions(jsonResponse.correspondents)
+                getConversation()
             }
         }
     };
