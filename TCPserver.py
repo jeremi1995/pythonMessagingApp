@@ -14,22 +14,13 @@
 ##############################################################################
 
 #############################################################################
-# Take 1:
-#    It took me about 5 hours to figure everything out but I finally got
-#    everything pretty much working... I think. 
-#    The style might not be the best though.
-#
-#    I didn't have enough time to create a new thread for every different
-#    connection from a different host. But if I have enough time, I would
-#    certainly do this since it prevents blocking (one client's connection
-#    preventing other clients to connect to the server)
-#
-##############################################################################
-#############################################################################
-# Take 2:
-#    - Added code to properly close the file when done.
-#    - Clean up getHTTPResponse() function to make it more readable
-#    - Fixed the first line of the response which breaks sometimes
+# Final project:
+# This file is the source code for the server of my messaging App.
+# It has 4 POST endpoints:
+# - /signUp
+# - /sendMessage
+# - /getCorrespondents
+# - /getConversation
 #
 ##############################################################################
 
